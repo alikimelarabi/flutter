@@ -93,7 +93,7 @@ Future<void> main(List<String> arguments) async {
 
   final String dartExecutable = '$flutterRoot/bin/cache/dart-sdk/bin/dart';
 
-  // Run pub.
+  // Run pub...
   ProcessWrapper process = ProcessWrapper(await runPubProcess(
     dartBinaryPath: dartExecutable,
     arguments: <String>['get'],
